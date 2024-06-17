@@ -44,13 +44,26 @@ body {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
 }
-.container__aviso{
+.container__aviso {
    font-size: 12px;
    color: var(--cinza-secundario);
 }
-.container__imagem{
+.container__imagem {
    margin: 1em 0 2em 0;
 }
-.container_caixa{
+.container_caixa {
     margin: 0 6em;
+}
+.imagem__secundaria {
+    width: 30%;
+}
+.container__secundario {
+    align-items: center;
+    margin: 0 10cm;
+}
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0,1em;
 }
